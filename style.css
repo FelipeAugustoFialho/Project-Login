@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #0A0A10;
+
+}
+
+.img-google {
+    width: 20px;
+    height: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    max-width: 414px;
+    min-height: 100vh;
+    gap: 12px;
+    position: relative;
+}
+
+.blur {
+    width: 414px;
+    height: 280px;
+    background: #fff;
+    position: absolute;
+    z-index: -1;
+    fill: #FFF;
+
+    opacity: 0.25;
+    filter: blur(24px);
+
+}
+
+h1 {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    color: #FFF;
+
+
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    margin-bottom: 4px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    margin-bottom: 8px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #fff;
+
+
+}
+
+input::placeholder {
+    font-weight: 100%;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #Ffffff;
+
+}
+
+.button-login {
+    display: flex;
+    width: 100%;
+    height: 68px;
+    padding: 0px 113px;
+    justify-content: center;
+    align-items: center;
+    background: #D93856;
+    transition: 0.3 ease;
+    color: #FFF;
+    border: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.5px;
+
+}
+
+.button-login:hover {
+    background: blueviolet;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button-login:active {
+    opacity: 0.6;
+}
+
+.button-google {
+    display: flex;
+    width: 100%;
+    height: 68px;
+    padding: 0px 74px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: rgba(255, 255, 255, 0.14);
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.5px;
+    gap: 12px;
+}
+
+.button-google:hover {
+
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button-google:active {
+    opacity: 0.6;
+}
+
+.create-acc {
+    text-align: center;
+    font-size: 14px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.create {
+    color: #FFFF;
+}
+
+.newbie {
+    color: #FFFFFF99;
+    text-decoration: none;
+    font-size: 14px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
